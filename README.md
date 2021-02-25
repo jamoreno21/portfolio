@@ -41,7 +41,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### `npm install --save react-mdl`
 
-When cloning the project, run either 'npm i' to install all packages or 'npm install --save react-mdl' to install all the Material Design Lite (MDL) packages 
+When cloning the project, run either 'npm i' to install all packages or 'npm install --save react-mdl' to install all the Material Design Lite (MDL) packages.  
+
+### `npm i`
+
+When loading up the project run 'npm i' to install all packages such as 'react-router-dom' and 'react-mdl'
 
 ## Learn More
 
