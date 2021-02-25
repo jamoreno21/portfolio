@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 function App() {
   return (
     <div className="demo-big-content">
+      {/* Importing Nav bar from MDL */}
     <Layout>
         <Header className='header-color' title="JAM" scroll>
             <Navigation>

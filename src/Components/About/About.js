@@ -5,6 +5,7 @@ class About extends Component {
 render(){
     return(
       <div style= {{width: '100%', margi: 'auto'}}>
+          {/* Creating a grid for page layout */}
           <Grid className="Home-grid">
               <Cell col={12}>
                  <img 
@@ -15,6 +16,19 @@ render(){
                      
                      <hr/>
                      <p>Hello! I'm just a United States Marine Coprs Veteran going into my next chapter of life into the technology feild. I am passionately pursuing a career as a Full Stack Software Developer. </p>
+                     <div className="social-links">
+
+                         {/* Linked In  */}
+                         <a href="https://www.google.com" rel="noopener noreferrer" target="_blank">
+                             <i className="fa fa-linkedin-square"  aria-hidden="true" />
+                         </a>
+                         {/* Git Hub */}
+                         <a href="https://www.google.com" rel="noopener noreferrer" target="_blank">
+                             <i className="fa fa-github-square"  aria-hidden="true" />
+                         </a>
+                         
+                     </div>
+                     <p>Copyright &copy; 2021 JAM</p>
                  </div>
               </Cell>
           </Grid>

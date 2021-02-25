@@ -1,12 +1,24 @@
 .header-color{
-  background: #5433FF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  /* fallback for old browsers */
+  background: #5433FF;  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to left, #A5FECB, #20BDFF, #5433FF); 
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #A5FECB, #20BDFF, #5433FF); 
 }
 
+.Home-grid{
+  /* fallback for old browsers */
+  background: #5433FF;  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to left, #A5FECB, #20BDFF, #5433FF); 
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #A5FECB, #20BDFF, #5433FF); 
+  text-align: center;
+
+}
 .self-Image{
-  border-radius: 30px;
+  border-radius: 50px;
   height: 400px;
   width: 400px;
 }
@@ -22,7 +34,6 @@
 .imgTxt h1{
   font-weight: bold;
   color: white;
-  align-items: center;
 }
 .imgTxt hr{
   border-top: 5px dotted white;
@@ -33,4 +44,18 @@
   color: white;
   font-size: 20px;
   padding: 1em;
+  align-items: center;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  color: white;
+  font-size: 5em;
+  padding: 8px;
 }
