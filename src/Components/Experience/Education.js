@@ -4,7 +4,7 @@ class Education extends Component {
     render() {
         return (
             <div>
-                <h1>
+                <h1 style={{paddingLeft:"25%", fontWeight:"bold"}}>
                     Education History:
                 </h1>
                 <h4>Coastal Carolina Community College - <i>Some College</i></h4>

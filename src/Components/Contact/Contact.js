@@ -20,7 +20,7 @@ class Contact extends Component {
                             <List className="List">
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', fontWeight:'bold'}}>
-                                        <i className="fa fa-phone-square" />(704)-996-XXXX</ListItemContent>
+                                        <i className="fa fa-phone-square" />(704)-XXX-XXXX</ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', fontWeight:'bold'}}>
