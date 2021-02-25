@@ -1,5 +1,8 @@
 /* Home page CSS */
 .header-color{
+
+  /* Colors imported from UIGradients.com */
+
   /* fallback for old browsers */
   background: #5433FF;  
   /* Chrome 10-25, Safari 5.1-6 */
@@ -36,6 +39,7 @@
   font-weight: bold;
   color: white;
 }
+
 .imgTxt hr{
   border-top: 5px dotted white;
   margin: auto;
@@ -60,6 +64,16 @@
   font-size: 5em;
   padding: 8px;
 }
+
+/* Resume page CSS */
+.right-col{
+  /* background:greenyellow;
+  color:orangered; */
+}
+
+
+
+
 /* Contact Page CSS */
 .contact-me{
   margin: auto;

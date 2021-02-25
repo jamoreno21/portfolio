@@ -10,7 +10,7 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h1>John A. Moreno</h1>
                         <img
-                            src="https://i.ibb.co/SK2b2WD/image3.jpg" />
+                            src="https://i.ibb.co/SK2b2WD/image3.jpg" alt="spearfishing picture" />
                         <p>Lets get in touch virtually!</p>
                     </Cell>
                     <Cell col={6}>
@@ -20,7 +20,7 @@ class Contact extends Component {
                             <List className="List">
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', fontWeight:'bold'}}>
-                                        <i className="fa fa-phone-square" />(704)-996-8051</ListItemContent>
+                                        <i className="fa fa-phone-square" />(704)-996-XXXX</ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', fontWeight:'bold'}}>
