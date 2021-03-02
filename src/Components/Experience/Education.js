@@ -18,7 +18,7 @@ class Education extends Component {
                 <p>Charlotte, NC </p>
                 <h6 style={{ color: 'gray' }}><i>August 2012 - June 2016</i></h6>
                 <p>I attended Philip O. Berry from 2012-2016. I was heavily involved with the school's JROTC program and eventually became the Cadet Battalion Commander of the program. Volunteered with many events and even organized some through the P.O.B JROTC program. </p>
-                <hr></hr>
+                <hr style={{borderTop:"5px solid black"}}></hr>
                 <h4>Awards & Certifications:</h4>
                 
                 <ul>

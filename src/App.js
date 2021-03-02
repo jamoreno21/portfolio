@@ -11,12 +11,12 @@ function App() {
       {/* Importing Nav bar from Media Design Lite */}
     <Layout>
         <Header className='header-color' title="JAM" scroll>
-            <Navigation>
+            {/* <Navigation>
                 <Link to="/">About</Link>
                 <Link to="/Resume">Resume</Link>
                 <Link to="/Projects">Projects</Link>
                 <Link to="/Contact">Contact</Link>
-            </Navigation>
+            </Navigation> */}
         </Header>
         <Drawer title="JAM">
             <Navigation>

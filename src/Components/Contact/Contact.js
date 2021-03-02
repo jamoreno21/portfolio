@@ -19,10 +19,7 @@ class Contact extends Component {
                         <div className="contact-list">
                             <List className="List">
                                 <ListItem>
-                                    <ListItemContent style={{fontSize: '25px', fontWeight:'bold'}}>
-                                        <i className="fa fa-phone-square" />(704)-XXX-XXXX</ListItemContent>
-                                </ListItem>
-                                <ListItem>
+                                    {/* Email */}
                                     <ListItemContent style={{fontSize: '25px', fontWeight:'bold'}}>
                                         <i className="fa fa-envelope-square" />jatmoreno98@gmail.com</ListItemContent>
                                 </ListItem>
@@ -30,7 +27,7 @@ class Contact extends Component {
                                     <a href="https://www.linkedin.com/in/john-moreno-7141131a9/" rel="noopener noreferrer" target="_blank">
                                         <i className="fa fa-linkedin-square" aria-hidden="true" />
                                     </a>
-                                    <ListItemContent style={{fontSize: '25px', fontWeight:'bold'}}>Lets connect on linked In!</ListItemContent>
+                                    <ListItemContent style={{fontSize: '25px', fontWeight:'bold'}}>Lets connect on Linked In!</ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     {/* Git Hub */}
