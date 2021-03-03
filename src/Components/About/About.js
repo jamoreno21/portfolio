@@ -15,7 +15,7 @@ render(){
                      <h1>Aspiring Full Stack Developer</h1>
                      
                      <hr/>
-                     <p>Hello! I'm a United States Marine Coprs Veteran going into my next chapter of life into the technology feild. I am passionately pursuing a career as a Full Stack Software Developer. </p>
+                     <p>Hello! I'm a United States Marine Coprs Veteran going into my next chapter of life into the technology feild. Making the transition from being a Combat Engineer to a Software Engineer, has been full of learning. Thanks to Road 2 Hire I am now passionately pursuing a career as a Full Stack Software Developer. </p>
                      <div className="social-links">
 
                          {/* Linked In  */}

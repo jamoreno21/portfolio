@@ -15,16 +15,18 @@ class Projects extends Component {
 
                         <CardTitle>Ecommerce 1</CardTitle>
 
-                        <CardText>My first Ecommerce project. Built in HTML and CSS with both HTML and CSS validations.</CardText>
-
                         <button colored style={{ height: "30px", width: "150px", borderRadius: "10px"}}><a href="https://github.com/jamoreno21/eCommerce_Project" style={{textDecoration:"none", color:"black"}}>Source Code</a></button>
                     </Card>
 
                     <Card shadow={0} style={{ width: '400px', height: '380px', margin: "auto", backgroundColor: "lightgray", alignItems: "center" }}>
                         <img src="https://i.ibb.co/wgWy1Vq/Screen-Shot-2021-02-26-at-1-09-08-PM.png" alt="Ecommerc e V2" style={{ paddingTop: "10px", height: "200px" }} />
+
                         <CardTitle>Ecommerce V2</CardTitle>
+
                         <CardActions border>
-                            <button colored style={{ height: "30px", width: "150px", borderRadius: "10px", marginLeft:"30%"}}><a href="https://github.com/jamoreno21/Ecommerce2" style={{textDecoration:"none", color:"black"}}>Source Code</a></button>
+                            <button colored style={{ height: "30px", width: "150px", borderRadius: "10px", marginLeft:"30%"}}>
+                                <a href="https://github.com/jamoreno21/Ecommerce2" style={{textDecoration:"none", color:"black"}}>Source Code</a>
+                            </button>
                         </CardActions>
                     </Card>
 
@@ -88,33 +90,6 @@ class Projects extends Component {
                         <CardText>A Simple app built in React that uses a location API to help find tutors in the students area.</CardText>
                         <CardActions border>
                             <button colored style={{ height: "30px", width: "150px", borderRadius: "10px", }}>Source Code</button>
-                        </CardActions>
-                    </Card>
-
-                    <Card shadow={0} style={{ width: '400px', height: '380px', margin: "auto", backgroundColor: "lightgray", alignItems: "center" }}>
-                        <img src="" alt="blank" />
-                        <CardTitle>To Do App</CardTitle>
-                        {/* <CardText></CardText> */}
-                        <CardActions border>
-                            <button colored style={{ height: "30px", width: "150px", borderRadius: "10px", }}>Source Code</button>
-                        </CardActions>
-                    </Card>
-
-                    <Card shadow={0} style={{ width: '400px', height: '380px', margin: "auto", backgroundColor: "lightgray", alignItems: "center" }}>
-                        <img src="" alt="blank" />
-                        <CardTitle>Animations in JS</CardTitle>
-                        {/* <CardText></CardText> */}
-                        <CardActions border>
-                            <button colored style={{ height: "30px", width: "150px", borderRadius: "10px", }}>Source Code</button>
-                        </CardActions>
-                    </Card>
-
-                    <Card shadow={0} style={{ width: '400px', height: '380px', margin: "auto", backgroundColor: "lightgray", alignItems: "center" }}>
-                        <img src="" alt="blank" />
-                        <CardTitle>Expirimental</CardTitle>
-                        {/* <CardText></CardText> */}
-                        <CardActions border>
-                            <button colored style={{ height: "30px", width: "150px", borderRadius: "10px", marginLeft:"30%"}}>Source Code</button>
                         </CardActions>
                     </Card>
 
